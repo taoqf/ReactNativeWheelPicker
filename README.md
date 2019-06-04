@@ -1,6 +1,9 @@
 # React native wheel picker V2
 
-![Gem](https://img.shields.io/gem/dt/@taoqf/react-native-wheel-picker.svg)
+Fork from [react-native-cookies](https://github.com/KalonTech/ReactNativeWheelPicker/)
+
+[![npm downloads](https://img.shields.io/dub/dm/@taoqf/react-native-wheel-picker.svg)](https://www.npmjs.com/package/@taoqf/react-native-wheel-picker)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/taoqf/ReactNativeWheelPicker/blob/master/LICENSE)
 
 A simple Wheel Picker for Android and IOS (For IOS is used PickerIOS)
 
