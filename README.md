@@ -9,7 +9,9 @@ A simple Wheel Picker for Android and IOS (For IOS is used PickerIOS)
 
 ## Installation
 
-`yarn add react-native-wheel-picker-android`
+```sh
+yarn add @taoqf/react-native-wheel-picker
+```
 
 android
 
@@ -21,7 +23,9 @@ ios
 
 ## Automatic Installation
 
-`react-native link react-native-wheel-picker-android`
+```sh
+react-native link @taoqf/react-native-wheel-picker
+```
 
 ## Manual Android Installation
 
@@ -188,4 +192,4 @@ onDateSelected = date => {}
 
 ## Questions or suggestions
 
-Feel free to [open an issue](https://github.com/ElekenAgency/ReactNativeWheelPicker/issues)
+Feel free to [open an issue](https://github.com/taoqf/ReactNativeWheelPicker/issues)
