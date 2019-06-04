@@ -1,28 +1,35 @@
 {
-  "name": "react-native-wheel-picker-android",
-  "version": "2.0.5",
-  "description": "Simple Wheel Picker for Android to use with react-native",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ElekenAgency/ReactNativeWheelPicker.git"
-  },
-  "keywords": [
-    "react-component",
-    "react-native",
-    "android",
-    "picker",
-    "wheel-picker",
-    "date-picker",
-    "date-wheel-picker"
-  ],
-  "author": "Artem Kosiakevych <artem.kosiakevych@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ElekenAgency/ReactNativeWheelPicker/issues"
-  },
-  "homepage": "https://github.com/ElekenAgency/ReactNativeWheelPicker",
-  "dependencies": {
-    "moment": "2.24.0"
-  }
+	"name": "@taoqf/react-native-wheel-picker",
+	"version": "1.0.0",
+	"description": "Simple Wheel Picker for react-native",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taoqf/ReactNativeWheelPicker.git"
+	},
+	"keywords": [
+		"react-component",
+		"react-native",
+		"android",
+		"picker",
+		"wheel-picker",
+		"date-picker",
+		"date-wheel-picker"
+	],
+	"author": "Artem Kosiakevych <artem.kosiakevych@gmail.com>",
+	"contributors": [
+		{
+			"name": "taoqf",
+			"url": "https://github.com/taoqf",
+			"email": "tao_qiufeng@126.com"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ElekenAgency/ReactNativeWheelPicker/issues"
+	},
+	"homepage": "https://github.com/ElekenAgency/ReactNativeWheelPicker",
+	"dependencies": {
+		"moment": "2.24.0"
+	}
 }

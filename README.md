@@ -1,19 +1,20 @@
 # React native wheel picker V2
 
-<p>
-<img src="http://img.shields.io/npm/v/react-native-wheel-picker-android.svg" />
-<img src="https://img.shields.io/npm/dm/react-native-wheel-picker-android.svg" />
-<img src="https://img.shields.io/npm/dt/react-native-wheel-picker-android.svg" />
-</p>
+![Gem](https://img.shields.io/gem/dt/@taoqf/react-native-wheel-picker.svg)
 
-A simple Wheel Picker for Android (For IOs is used PickerIOS)
+A simple Wheel Picker for Android and IOS (For IOS is used PickerIOS)
 
 ## Installation
 
 `yarn add react-native-wheel-picker-android`
 
-![](./src/assets/pickerAndroid.gif)
-![](./src/assets/pickerIos.gif)
+android
+
+![android](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/pickerAndroid.gif)
+
+ios
+
+![ios](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/pickerIos.gif)
 
 ## Automatic Installation
 
@@ -23,14 +24,14 @@ A simple Wheel Picker for Android (For IOs is used PickerIOS)
 
 In `android/settings.gradle`
 
-```
+```gradle
 include ':react-native-wheel-picker-android'
 project(':react-native-wheel-picker-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wheel-picker-android/android')
 ```
 
 In `android/app/build.gradle`
 
-```
+```gradle
 dependencies {
     ...
     compile project(':react-native-wheel-picker-android')
@@ -39,14 +40,14 @@ dependencies {
 
 In `android/app/src/main/java/com/PROJECT_NAME/MainApplication.java`
 
-```
+```java
 @Override
 protected List<ReactPackage> getPackages() {
   return Arrays.<ReactPackage>asList(new MainReactPackage(), new WheelPickerPackage());
 }
 ```
 
-# Usage
+## Usage
 
 ```js
 import {
@@ -117,10 +118,15 @@ module.exports = MyPicker;
 | indicatorWidth | 1 | `number` | Indicator width |
 | backgroundColor | transparent | `string` | Wheel Picker background color  |
 
-# Time Picker
+## Time Picker
 
-![](./src/assets/timePickerAndroid.gif)
-![](./src/assets/timePickerIos.gif)
+android
+
+![android](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/timePickerAndroid.gif)
+
+ios
+
+![ios](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/timePickerIos.gif)
 
 ```js
 onTimeSelected = date => {}
@@ -129,7 +135,7 @@ onTimeSelected = date => {}
 
 ```
 
-## Props
+### Props
 
 | Prop                 |     Default      |      Type       | Description                 |
 | :------------------- | :--------------: | :-------------: | :-------------------------- |
@@ -140,12 +146,17 @@ onTimeSelected = date => {}
 | minutes              | [00,05,10,15...] | `Array<string>` | Custom minutes array        |
 | format24             |      false       |    `boolean`    | Time format                 |
 
-# Date Picker
+## Date Picker
 
 For IOs DatePickerIOS is used
 
-![](./src/assets/datePickerAndroid.gif)
-![](./src/assets/datePickerIos.gif)
+android
+
+![android](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/datePickerAndroid.gif)
+
+ios
+
+![ios](https://raw.githubusercontent.com/taoqf/ReactNativeWheelPicker/master/src/assets/datePickerIos.gif)
 
 ```js
 onDateSelected = date => {}
@@ -154,7 +165,7 @@ onDateSelected = date => {}
 
 ```
 
-## Props
+### Props
 
 | Prop                                                                                    |     Default      |      Type       | Description                                          |
 | :-------------------------------------------------------------------------------------- | :--------------: | :-------------: | :--------------------------------------------------- |
@@ -172,6 +183,6 @@ onDateSelected = date => {}
 | hideMinutes                                                                             |      false       |    `boolean`    | Hide minutes picker (Android only)                   |
 | hideAM                                                                                  |      false       |    `boolean`    | Hide time format picker (Android only)               |
 
-## Questions or suggestions?
+## Questions or suggestions
 
 Feel free to [open an issue](https://github.com/ElekenAgency/ReactNativeWheelPicker/issues)
