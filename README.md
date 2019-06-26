@@ -1,6 +1,6 @@
 # React native wheel picker V2
 
-Fork from [react-native-cookies](https://github.com/KalonTech/ReactNativeWheelPicker/)
+Fork from [react-native-wheel-picker-android](https://github.com/KalonTech/ReactNativeWheelPicker/)
 
 [![npm downloads](https://img.shields.io/dub/dm/@taoqf/react-native-wheel-picker.svg)](https://www.npmjs.com/package/@taoqf/react-native-wheel-picker)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/taoqf/ReactNativeWheelPicker/blob/master/LICENSE)
