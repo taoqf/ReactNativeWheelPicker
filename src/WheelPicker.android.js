@@ -41,6 +41,7 @@ export default class WheelPicker extends React.Component<Props> {
     return (
       <WheelPickerView
         {...this.props}
+        initPosition={this.props.selectedItem}
         onChange={this.onItemSelected}
       />
     )

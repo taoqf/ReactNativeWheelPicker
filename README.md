@@ -1,6 +1,6 @@
 # React native wheel picker V2
 
-Fork from [react-native-cookies](https://github.com/KalonTech/ReactNativeWheelPicker/)
+Fork from [react-native-wheel-picker-android](https://github.com/KalonTech/ReactNativeWheelPicker/)
 
 [![npm downloads](https://img.shields.io/dub/dm/@taoqf/react-native-wheel-picker.svg)](https://www.npmjs.com/package/@taoqf/react-native-wheel-picker)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/taoqf/ReactNativeWheelPicker/blob/master/LICENSE)
@@ -119,7 +119,6 @@ module.exports = MyPicker;
 | itemTextSize | 16 | `number` | Wheel Picker's Item text size  |
 | itemTextFontFamily | - | `font-family` | Wheel Picker's Item font  |
 | selectedItem | 0 | `number` | Current item position |
-| initPosition | 0 | `number` | Initial item position |
 | indicatorColor | black | `string` | Indicator color  |
 | hideIndicator | - | `boolean` | Hide indicator |
 | indicatorWidth | 1 | `number` | Indicator width |
