@@ -30,12 +30,6 @@ export default class WheelPicker extends React.Component<Props, State> {
       selectedItem: props.selectedItem
     }
   }
-  
-  componentDidUpdate(prevProps: Props, prevState: State){
-    if (prevState.selectedItem !== this.props.selectedItem){
-      this.setState({ selectedItem: this.props.selectedItem })
-    }
-  }
 
   onItemSelected = (value: any, index: number) => {
     if (this.props.onItemSelected) {
