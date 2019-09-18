@@ -1,6 +1,6 @@
 {
 	"name": "@taoqf/react-native-wheel-picker",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Simple Wheel Picker for react-native",
 	"main": "index.js",
 	"repository": {
